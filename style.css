@@ -20,7 +20,7 @@ body {
 }
 
 .cv {
-    width: 950px; /* Tăng chiều rộng tổng thể */
+    width: 950px;
     background: rgba(255, 255, 255, 0.9);
     display: flex;
     border-radius: 40px; 
@@ -29,9 +29,9 @@ body {
     border: 1px solid rgba(255,255,255,0.3);
 }
 
-/* Sidebar: Nơi chứa ảnh chân dung */
+
 .sidebar {
-    width: 35%; /* Tăng không gian cột trái */
+    width: 35%;
     background: linear-gradient(180deg, #ffafbd 0%, #ffc3a0 100%);
     color: white;
     padding: 50px 25px;
@@ -39,11 +39,11 @@ body {
 }
 
 .avatar-frame {
-    width: 220px; /* Tăng khung ảnh rộng rãi */
+    width: 220px;
     height: 220px;
     margin: 0 auto 30px;
     border: 8px solid rgba(255,255,255,0.3);
-    border-radius: 35px; /* Bo góc nghệ thuật */
+    border-radius: 50% 20% 50% 20%;
     overflow: hidden;
     box-shadow: 0 15px 30px rgba(0,0,0,0.1);
     transition: transform 0.4s ease;
@@ -56,7 +56,7 @@ body {
 .avatar {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Đảm bảo ảnh luôn đầy khung và không bị méo */
+    object-fit: cover;
 }
 
 .sidebar h3 {
